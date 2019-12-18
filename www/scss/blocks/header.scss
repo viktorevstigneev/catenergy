@@ -1,78 +1,31 @@
-.header {
-  color: #111111;
-  background-color: #ffffff; }
-
-.header__wrap {
-  position: relative; }
-  .header__wrap::before {
-    content: "";
-    position: absolute;
-    right: 50%;
-    bottom: 0;
-    width: 100vw;
-    height: 1px;
-    background-color: #e6e6e6; }
-  .header__wrap::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    width: 100vw;
-    height: 1px;
-    background-color: #e6e6e6; }
-
-.header__container {
-  position: relative; }
-
-.header__logo {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  padding-top: 14px;
-  padding-bottom: 10px; }
-  .header__logo[href]:hover {
-    opacity: 0.8; }
-  .header__logo[href]:active {
-    opacity: 0.6; }
-
-.header__nav--close {
-  display: none; }
-
-.header__nav {
-  display: none; }
-  .header__nav--show {
-    display: block; }
-
-.header__nav-list {
-  margin: 0;
-  padding: 0;
-  list-style-type: none; }
-
-.header__nav-item {
-  position: relative; }
-  .header__nav-item::before {
-    content: "";
-    position: absolute;
-    right: 50%;
-    bottom: 0;
-    width: 100vw;
-    height: 1px;
-    background-color: #e6e6e6; }
-  .header__nav-item::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    width: 100vw;
-    height: 1px;
-    background-color: #e6e6e6; }
-
-.header__nav-link {
-  display: block;
-  padding: 23px 0;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 20px;
-  text-align: center;
-  color: #111111;
-  text-transform: uppercase; }
+.header__container{
+    margin: 0 auto;
+margin-left: 20px;
+margin-right: 20px;
+margin-bottom: 15px;
+}
+.header__navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.header__wrapImage{
+    margin-top: 10px;
+}
+ul{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+.header__list{
+    text-align: center;
+ 
+}
+.header__item a{
+    display: block;
+    padding-top:15px;
+    padding-bottom: 15px;
+    border-top: 1px solid #e6e6e6;
+    color:black;
+}
+.header__item-bottom{
+    border-bottom: 1px solid #e6e6e6;
+}
