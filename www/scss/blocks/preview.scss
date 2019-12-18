@@ -1,4 +1,54 @@
 .preview{
-    background:url('./img/bg.png');
-    height: 50vh;
+position: relative;
+    background:url('../img/bg.png') no-repeat;
+    background-size: 100%;
+   height: 305px;
+  
+}
+.preview__content{
+    padding-top: 30px;
+    text-align: center;
+}
+.preview__container{
+    margin: 0 auto;
+    width: 280px;
+}
+.preview__title{
+    color:#fff;
+    margin: 0;
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
+.preview__slogan{
+    color:#d0ddc8;
+    display: block;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 14px;
+}
+.preview__img {
+  position: absolute;
+  margin-top: 30px;
+  left: 50%;
+  transform: translate(-50%);
+}
+.preview__btn{
+    position: relative; ;
+    display: block;
+    margin: 0 auto;
+    width: 280px;
+    padding: 11px 11px;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    bottom: -300px;;
+    background-color: #68b738;
+   transition: 1s;
+}
+.preview__btn:hover{
+    background-color: rgb(97, 206, 97);
 }
