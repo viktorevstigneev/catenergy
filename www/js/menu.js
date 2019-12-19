@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded',() =>{
    const  headerList =document.getElementById('header__list');
    const closeMenu = document.getElementById('close');
    let  imgCLOP = document.getElementById('imgCO');
-    let a=1;
+    let a=0;
 
 
    closeMenu.addEventListener('click',  () =>{

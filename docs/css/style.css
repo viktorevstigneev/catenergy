@@ -332,7 +332,7 @@ ul {
   padding: 0 0 0 0; }
 
 .header__list {
-  display: block;
+  display: none;
   text-align: center; }
 
 .header__item a {
