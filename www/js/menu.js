@@ -9,13 +9,12 @@ document.addEventListener('DOMContentLoaded',() =>{
 
    closeMenu.addEventListener('click',  () =>{
     if(a==0){  headerList.style.display='block';
-       console.log("aaaaaa",a);
+    
        a=1;
-       
     }
-    if(a==1){
+    else {
         headerList.style.display='none';
-        console.log("aaaaaaaa",a);
+      
        a=0;
     }
     
