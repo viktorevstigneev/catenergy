@@ -1,24 +1,30 @@
 .header__container{
     margin: 0 auto;
-margin-left: 20px;
-margin-right: 20px;
-margin-bottom: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 15px;
 }
 .header__navbar{
     display: flex;
     justify-content: space-between;
 }
-.header__wrapImage{
-    margin-top: 10px;
+.header__button{
+    visibility: hidden;
 }
-ul{
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
+.header__image{
+    visibility: visible;
+}
+.header__wrap{
+    margin-top: 10px;
 }
 .header__list{
     display: none;
     text-align: center;
- 
+    margin: 0;
+    padding: 0;
+}
+.header__item{
+    text-transform: uppercase;
 }
 .header__item a{
     display: block;
@@ -27,6 +33,6 @@ ul{
     border-top: 1px solid #e6e6e6;
     color:black;
 }
-.header__item-bottom{
+.header__item:last-child{
     border-bottom: 1px solid #e6e6e6;
 }

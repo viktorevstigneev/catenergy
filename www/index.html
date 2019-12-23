@@ -2,39 +2,46 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Cat Energy</title>
 	<link rel="stylesheet" type="text/css" href="css/style.min.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
- <header class="header">
-      <div class="header__container">
-      		 <div class="header__navbar">
-					<img src="img/logo.png" alt="logo">
-					<div class="header__wrapImage">
-						<a href="#" id="close"><img id="imgCO" src="img/open.png" alt="button menu"></a>
-					</div>
-			   </div>
+<header class="header">
+	<div class="header__container">
+    	<div class="header__navbar">
+				<img src="img/logo.png" alt="logo">
+				<div class="header__wrap">
+					<button class="header__button" id="close" >
+						<img class="header__image" id="imgCO" src="img/open.png" alt="menu gamburger">
+					</button>
+				</div>
 		</div>
-				<ul id="header__list" class="header__list">
-					<li class="header__item"><a href="#">ГЛАВНАЯ</a></li>
-					<li class="header__item"><a href="#">КАТАЛОГ ПРОДУКЦИИ</a></li>
-					<li class="header__item header__item-bottom"><a href="#">ПОДБОР ПРОГРАММЫ</a></li>
-			   </ul>
+	</div>
+	<nav class="header__nav">
+		<ul id="header__list" class="header__list">
+			<li class="header__item">
+				<a href="#">главная</a>
+			</li>
+			<li class="header__item">
+				<a href="#">каталог продукции</a>
+			</li>
+			<li class="header__item">
+				<a href="#">подбор программы</a>
+			</li>
+		</ul>
+	</nav>	
 	</header>
-	
 	<main class="main__content">
 		<section class="preview">
 			<div class="preview__container">
 				<div class="preview__content">
-					<h2 class="preview__title">ФУНКЦИОНАЛЬНОЕ ПИТАНИЕ ДЛЯ КОТОВ</h2>
-					<span class="preview__slogan">ЗАНЯЛСЯ СОБОЙ?ЗАЙМИСЬ КОТОМ</span>
+					<h1 class="preview__title">функциональное питание для</h1>
+					<p class="preview__slogan">занялся собой?займись котом</p>
 				</div>
-				
-			
-			</div>
-			<img class="preview__img" src="img/preview_mean.png" alt="preview__mean">
-			<a href="" class="preview__btn">подобрать программу</a>
+				<img class="preview__img" src="img/preview_mean.png" alt="preview__mean">
+				<a href="#1" class="preview__button">подобрать программу</a>
+		</div>
 		</section>
 	</main>
 	<script src="js/main.min.js"></script>
