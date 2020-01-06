@@ -12,19 +12,22 @@
     visibility: hidden;
 }
 .header__image{
+    width: 18px;
+    height: 18px;
     visibility: visible;
 }
 .header__wrap{
     margin-top: 10px;
 }
 .header__list{
-    display: none;
     text-align: center;
     margin: 0;
     padding: 0;
 }
 .header__item{
     text-transform: uppercase;
+    font-family: 'Oswald' , sans-serif;
+    font-weight: 600;
 }
 .header__item a{
     display: block;

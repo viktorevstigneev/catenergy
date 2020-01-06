@@ -11,6 +11,11 @@ img {
 ul {
   list-style: none; }
 
+/* oswald-regular - latin */
+@font-face {
+  font-family: 'Oswald';
+  src: url("../fonts/oswald-regular.woff2") format("woff2"), url("../fonts/oswald-regular.woff") format("woff"); }
+
 /*stylelint-disable*/
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
@@ -328,19 +333,22 @@ template {
   visibility: hidden; }
 
 .header__image {
+  width: 18px;
+  height: 18px;
   visibility: visible; }
 
 .header__wrap {
   margin-top: 10px; }
 
 .header__list {
-  display: none;
   text-align: center;
   margin: 0;
   padding: 0; }
 
 .header__item {
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-family: 'Oswald' , sans-serif;
+  font-weight: 600; }
 
 .header__item a {
   display: block;
@@ -353,10 +361,8 @@ template {
   border-bottom: 1px solid #e6e6e6; }
 
 .preview {
-  position: relative;
   background: url("../img/bg.png") no-repeat;
-  background-size: 100%;
-  height: 305px; }
+  background-size: 100%; }
 
 .preview__container {
   margin: 0 auto;
@@ -364,16 +370,16 @@ template {
   text-align: center; }
 
 .preview__title {
+  font-family: 'Oswald' , sans-serif;
   color: #fff;
   margin: 0;
   margin-bottom: 25px;
   font-weight: 400;
-  font-size: 24px;
-  line-height: 36px;
-  text-transform: uppercase;
+  font-size: 32px;
   padding-top: 30px; }
 
 .preview__slogan {
+  font-family: 'Oswald' , sans-serif;
   color: #d0ddc8;
   display: block;
   font-weight: 400;
@@ -381,15 +387,11 @@ template {
   line-height: 14px;
   text-transform: uppercase; }
 
-.preview__img {
-  position: absolute;
-  margin-top: 30px;
-  left: 50%;
-  -webkit-transform: translate(-50%);
-          transform: translate(-50%); }
+.preview__image {
+  margin-top: 40px; }
 
 .preview__button {
-  position: relative;
+  font-family: 'Oswald' , sans-serif;
   display: block;
   width: 258px;
   padding: 11px 11px;
@@ -403,5 +405,45 @@ template {
   -webkit-transition: 1s;
   transition: 1s; }
 
-.preview__btn:hover {
+.preview__button:hover {
   background-color: #61ce61; }
+
+.categories__container {
+  margin: 22px auto;
+  width: 280px;
+  background: #f2f2f2;
+  padding-bottom: 22px; }
+
+.categories__title {
+  font-family: 'Oswald' , sans-serif;
+  font-weight: 200;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-size: 24px; }
+
+.categories__image {
+  margin-top: 10px;
+  background: #68b738;
+  width: 47px;
+  height: 51px;
+  border-radius: 100px; }
+  .categories__image::before {
+    content: url("../img/slim.png");
+    display: block;
+    margin-left: 5px; }
+
+.categories__head {
+  margin-left: 5px;
+  display: -webkit-box;
+  display: flex; }
+
+.categories__content {
+  width: 240px;
+  margin: 0 auto; }
+
+.categories__link {
+  text-transform: uppercase;
+  font-family: 'Oswald';
+  color: black; }
+  .categories__link::after {
+    content: url("../img/arrow.png"); }

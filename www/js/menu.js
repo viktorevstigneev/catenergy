@@ -1,6 +1,7 @@
-'use strict';
+
 document.addEventListener('DOMContentLoaded',() =>{
-   const  headerList =document.getElementById('header__list');
+   'use strict';
+   const  headerList =document.querySelector('#header__list');
    const closeMenu = document.getElementById('close');
    const  imgCLOP = document.getElementById('imgCO');
     let a=0;

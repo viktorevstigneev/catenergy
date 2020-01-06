@@ -1,8 +1,7 @@
+
 .preview{
-    position: relative;
     background:url('../img/bg.png') no-repeat;
     background-size: 100%;
-    height: 305px;
 }
 .preview__container{
     margin: 0 auto;
@@ -10,16 +9,16 @@
     text-align: center;
 }
 .preview__title{
+    font-family: 'Oswald' , sans-serif;
     color:#fff;
     margin: 0;
     margin-bottom: 25px;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 36px;
-    text-transform: uppercase;
+    font-size: 32px;
     padding-top: 30px;
 }
 .preview__slogan{
+    font-family: 'Oswald' , sans-serif;
     color:#d0ddc8;
     display: block;
     font-weight: 400;
@@ -27,14 +26,11 @@
     line-height: 14px;
     text-transform: uppercase;
 }
-.preview__img {
-    position: absolute;
-    margin-top: 30px;
-    left: 50%;
-    transform: translate(-50%);
+.preview__image{
+    margin-top: 40px;
 }
 .preview__button{
-    position: relative; 
+    font-family: 'Oswald' , sans-serif;
     display: block;
     width: 258px;
     padding: 11px 11px;
@@ -47,6 +43,6 @@
     background-color: #68b738;
     transition: 1s;
 }
-.preview__btn:hover{
+.preview__button:hover{
     background-color: rgb(97, 206, 97);
 }
